@@ -23,6 +23,7 @@
     display: flex;
     justify-content: center;
   }
+
 &__locations {
   color: $color-text-white;
   background-color: $color-text-red;
@@ -37,13 +38,13 @@
     background-color: $color-hoverfocus-red;
   }
 }
-.button-contacts__franchise {
+&-contacts__franchise {
   &:hover,
   &:focus {
     background-color: $color-hoverfocus-gray;
   }
 }
-.button--modification {
+&--modification {
   font-weight: 700;
   min-width: 162px;
   padding: 11px 0px;
@@ -56,15 +57,15 @@
 }
 .button-contacts__svg {
   margin-left: 13px;
-
   height: 9px;
   width: 6px;
 }
-.button-contacts__svg--color-white {
+&--color-white {
   fill: $color-text-white;
 }
-.button-contacts__svg--color-red {
+&--color-red {
   fill: $color-text-red;
 }
 }
 }
+

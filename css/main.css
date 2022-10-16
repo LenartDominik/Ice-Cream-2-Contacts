@@ -1,12 +1,12 @@
 .button {
-  border: none;
+  border: transparent;
   cursor: pointer;
   background-color: #fff;
   border-radius: 22px;
   padding: 11px 37px;
   font-family: "DM Sans";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.31;
   text-align: center;
@@ -72,10 +72,10 @@
   height: 9px;
   width: 6px;
 }
-.button-contacts--color-white {
+.button-contacts .button-contacts__svg--color-white {
   fill: #ffffff;
 }
-.button-contacts--color-red {
+.button-contacts .button-contacts__svg--color-red {
   fill: #d41443;
 }
 
@@ -173,7 +173,7 @@ body {
 @media screen and (min-width: 768px) {
   .contacts {
     font-size: 14px;
-    margin: 0px -10px;
+    margin: 0px 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -183,7 +183,7 @@ body {
 @media screen and (min-width: 1280px) {
   .contacts {
     font-size: 16px;
-    margin: 0px -15px;
+    margin: 0px 15px;
     margin-bottom: 85px;
     position: relative;
   }

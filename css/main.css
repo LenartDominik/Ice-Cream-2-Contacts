@@ -14,12 +14,11 @@
 }
 .button-contacts {
   text-align: center;
+  margin-top: 54px;
 }
 @media screen and (max-width: 767.9px) {
   .button-contacts {
     width: 250px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (min-width: 768px) {
@@ -30,6 +29,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-top: 81px;
   }
 }
 .button-contacts__locations {
@@ -65,6 +65,7 @@
 @media screen and (min-width: 1280px) {
   .button-contacts--modification {
     min-width: 195px;
+    margin-top: 86px;
   }
 }
 .button-contacts .button-contacts__svg {
@@ -176,6 +177,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 54px;
 }
 @media screen and (min-width: 768px) {
   .contacts {
@@ -188,13 +190,13 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin-bottom: 80px;
+    margin-top: 81px;
   }
 }
 @media screen and (min-width: 1280px) {
   .contacts {
     font-size: 16px;
-    margin-bottom: 85px;
+    margin-top: 86px;
     position: relative;
   }
 }

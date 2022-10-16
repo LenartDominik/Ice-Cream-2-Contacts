@@ -177,7 +177,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 54px;
 }
 @media screen and (min-width: 768px) {
   .contacts {
@@ -190,13 +189,11 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin-top: 81px;
   }
 }
 @media screen and (min-width: 1280px) {
   .contacts {
     font-size: 16px;
-    margin-top: 86px;
     gap: 29px;
     position: relative;
   }

@@ -203,11 +203,6 @@ body {
   width: 1280px;
   top: 20%;
 }
-@media screen and (max-width: 767.8px) {
-  .contacts__item:not(:last-child) {
-    margin-bottom: 20px;
-  }
-}
 .contacts__item {
   position: relative;
   margin-left: auto;

@@ -101,7 +101,7 @@ body {
   }
   @media screen and (min-width: 1280px) {
     font-size: 16px;
-    margin: 0px 15px;
+    // margin: 0px 15px;
     margin-bottom: 85px;
     position: relative;
   }
@@ -127,7 +127,7 @@ body {
   
   @media screen and (min-width: 768px) {
     padding: 50px 31px;
-    margin: 0px 10px;
+    // margin: 0px 10px;
     flex-basis: calc((100% - (6 * 10px)) / 3);
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transition-duration: 500ms;
@@ -141,7 +141,7 @@ body {
   @media screen and (min-width: 1280px) {
     .contacts__item {
     padding: 55px 43px;
-    margin: 0px 15px;
+    // margin: 0px 15px;
     max-width: 330px;
     flex-basis: calc((100% - (6 * 15px)) / 3);
     }

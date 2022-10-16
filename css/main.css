@@ -169,7 +169,7 @@ body {
 }
 
 .contacts {
-  gap: 10px;
+  gap: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,7 +182,7 @@ body {
 @media screen and (min-width: 768px) {
   .contacts {
     font-size: 14px;
-    gap: 15px;
+    gap: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -197,6 +197,7 @@ body {
   .contacts {
     font-size: 16px;
     margin-top: 86px;
+    gap: 29px;
     position: relative;
   }
 }

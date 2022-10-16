@@ -88,13 +88,15 @@ body {
 }
 
 .contacts {
-  margin-bottom: 55px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
 
   @media screen and (min-width: 768px) {
     font-size: 14px;
-    margin: 0px 10px;
+    gap: 15px;
     display: flex;
-    // flex-wrap: wrap;
+    flex-direction: row;
     margin-bottom: 80px;
   }
   @media screen and (min-width: 1280px) {
@@ -105,7 +107,7 @@ body {
   }
 &__img {
   position: absolute;
-  width: 1920px;
+  width: 1280px;
   top: 20%;
 }
 &__item:not(:last-child) {
